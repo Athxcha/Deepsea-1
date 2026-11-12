@@ -217,8 +217,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d65f495c9f1eb4db20239621745827, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DeepScan.FishMovement
-  minBounds: {x: -8, y: 1, z: -8}
+  minBounds: {x: -8, y: 1.3, z: -8}
   maxBounds: {x: 8, y: 8, z: 8}
+  obstacleLayers:
+    serializedVersion: 2
+    m_Bits: 8
+  fishRadius: 0.25
+  surfacePadding: 0.1
 --- !u!114 &6687909693737022513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,6 +242,8 @@ MonoBehaviour:
   scanPointRoot: {fileID: 3668800495105368673}
   movement: {fileID: 1457701561671321223}
   revealDuration: 5
+  revealAnimationDuration: 0.5
+  revealStartScale: 0.3
 --- !u!54 &8717687166710156020
 Rigidbody:
   m_ObjectHideFlags: 0

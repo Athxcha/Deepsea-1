@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1961610e5c147ca40aaa944860d020c2, type: 3}
+  m_Name: Fish_Squid
+  m_EditorClassIdentifier: Assembly-CSharp::DeepScan.FishData
+  id: Fish_Squid
+  fishName: Squid
+  sprite: {fileID: -1341113223, guid: be99ee976d016a84b8a5dfd987cc3c5b, type: 3}
+  description: Sea Creature
+  infoImage: {fileID: 292194262, guid: da811a0a5d7be0f4bb501f50fc5db713, type: 3}
+  scanDuration: 5
+  scanShapePrefab: {fileID: 6179758569204543301, guid: b7bf7eb666e853f4f87c3ae1b2e80cf0, type: 3}
+  movement: {fileID: 11400000, guid: b91e6c42dc95b424db7819e50fae49e1, type: 2}
+  discoveryScore: 300
+  resultPrefab: {fileID: 7596457428732076903, guid: d86a4e5f201ccfe4cb05a0740b2ac000, type: 3}

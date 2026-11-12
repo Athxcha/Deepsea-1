@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1961610e5c147ca40aaa944860d020c2, type: 3}
   m_Name: Fish_Anglerfish
   m_EditorClassIdentifier: Assembly-CSharp::DeepScan.FishData
-  id: Fish_Crab
-  fishName: Crab
+  id: Fish_AnglerFish
+  fishName: AnglerFish
   sprite: {fileID: -1289396885, guid: b6c3399a484d52842a1ec61d784c3529, type: 3}
   description: Sea Creature
-  infoImage: {fileID: -1454259286, guid: 87f09bbed47a29c40ab459f1537af662, type: 3}
+  infoImage: {fileID: -2033162587, guid: a3ddd87cd42d53f459922d1042150ea4, type: 3}
   scanDuration: 5
   scanShapePrefab: {fileID: 6179758569204543301, guid: b7bf7eb666e853f4f87c3ae1b2e80cf0, type: 3}
   movement: {fileID: 11400000, guid: b91e6c42dc95b424db7819e50fae49e1, type: 2}
-  discoveryScore: 150
+  discoveryScore: 160
   resultPrefab: {fileID: 7596457428732076903, guid: a439ab6b0684cc841b77a3f42b28c15a, type: 3}
